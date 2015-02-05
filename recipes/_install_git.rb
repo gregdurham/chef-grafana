@@ -2,7 +2,7 @@
 # Cookbook Name:: grafana
 # Recipe:: install_git
 #
-# Copyright 2014, Grégoire Seux
+# Copyright 2014, Gregoire Seux
 # Copyright 2014, Jonathan Tron
 #
 # Licensed under the Apache License, Version 2.0 (the "License");

@@ -5,10 +5,10 @@ This file is used to list changes made in each version of grafana.
 ## 1.5.4 (dev):
 
 * Update `Grafana` to `1.9.1` (@osigida) [#32](https://github.com/JonathanTron/chef-grafana/pull/32)
-* Interpolate "version" and "type" attributes to build grafana file url (Bernhard Köhler) [#31](https://github.com/JonathanTron/chef-grafana/pull/31) and (Olivier Bazoud)
+* Interpolate "version" and "type" attributes to build grafana file url (Bernhard Kohler) [#31](https://github.com/JonathanTron/chef-grafana/pull/31) and (Olivier Bazoud)
   [#29](https://github.com/JonathanTron/chef-grafana/issues/29)
 * Add support for lambdas in datasources. This change makes it possible to
-  evaluate derived attributes correctly. (Bernhard Köhler) [#30](https://github.com/JonathanTron/chef-grafana/pull/30)
+  evaluate derived attributes correctly. (Bernhard Kohler) [#30](https://github.com/JonathanTron/chef-grafana/pull/30)
   and [#25](https://github.com/JonathanTron/chef-grafana/issues/25)
 
 ## 1.5.3:
@@ -78,17 +78,17 @@ __warnings__
 
 ## 1.3.0:
 
-* Allow attribute configuration for datasources (Grégoire Seux) [#16](https://github.com/JonathanTron/chef-grafana/pull/16)
+* Allow attribute configuration for datasources (Gregoire Seux) [#16](https://github.com/JonathanTron/chef-grafana/pull/16)
 
 ## 1.2.0:
 
 __breaking changes__
 
-* Update `ark` dependency to `>= 0.7.2` and deprecation warning by using `strip_component` (Grégoire Seux) [#15](https://github.com/JonathanTron/chef-grafana/pull/14)
+* Update `ark` dependency to `>= 0.7.2` and deprecation warning by using `strip_component` (Gregoire Seux) [#15](https://github.com/JonathanTron/chef-grafana/pull/14)
 
 __minor changes__
 
-* Support newer `nginx` cookbook by specifying `template: false` when enabling the `grafana` site (Grégoire Seux) [#15](https://github.com/JonathanTron/chef-grafana/pull/14)
+* Support newer `nginx` cookbook by specifying `template: false` when enabling the `grafana` site (Gregoire Seux) [#15](https://github.com/JonathanTron/chef-grafana/pull/14)
 
 ## 1.1.1:
 
@@ -138,18 +138,18 @@ __breaking changes__
 
 * Fix timezone value quoting in config.js (Anatoliy D.) [#9](https://github.com/JonathanTron/chef-grafana/pull/9)
 
-* Update grafana to 1.5.2 (Grégoire Seux) [#7](https://github.com/JonathanTron/chef-grafana/pull/7)
+* Update grafana to 1.5.2 (Gregoire Seux) [#7](https://github.com/JonathanTron/chef-grafana/pull/7)
 
-* Don't set normal attribute `node['nginx']['default_site_enabled']` (Grégoire Seux) [#5](https://github.com/JonathanTron/chef-grafana/pull/5)
+* Don't set normal attribute `node['nginx']['default_site_enabled']` (Gregoire Seux) [#5](https://github.com/JonathanTron/chef-grafana/pull/5)
 
 * Remove `"use strict";` from `config.js` as it seems to not be present in
   grafana releases, thanks to @iiro for proposing it in [#1](https://github.com/JonathanTron/chef-grafana/pull/1)
 
 * Don't search when `node['grafana']['es_server']` or `node['grafana']['graphite_server']`
-  is set and don't use normal attributes (Grégoire Seux) [#3](https://github.com/JonathanTron/chef-grafana/pull/3)
+  is set and don't use normal attributes (Gregoire Seux) [#3](https://github.com/JonathanTron/chef-grafana/pull/3)
 
 * Refactor and separate install in two recipes: `install_git` and `install_file`
-  (Grégoire Seux) [#2](https://github.com/JonathanTron/chef-grafana/pull/2)
+  (Gregoire Seux) [#2](https://github.com/JonathanTron/chef-grafana/pull/2)
 
 ## 1.0.2:
 

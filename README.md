@@ -151,7 +151,7 @@ Primary author:
 
 Contributors:
 
-- Grégoire Seux (@kamaradclimber)
+- Gregoire Seux (@kamaradclimber)
 - Anatoliy D. (@anatolijd)
 - Greg Fitzgerald (@gregf)
 - Fred Hatfull (@fhats)
@@ -159,7 +159,7 @@ Contributors:
 - Jonathon W. Marshall (@jwmarshall)
 - Andrew Goktepe (@andrewgoktepe)
 - Miguel Landaeta (@nomadium)
-- Bernhard Köhler (@drywheat)
+- Bernhard Kohler (@drywheat)
 - Olivier Bazoud (@obazoud)
 - @osigida
 
